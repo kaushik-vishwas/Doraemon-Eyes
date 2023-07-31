@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(133, 196, 238);
+}
+.dorapic {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('dora.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* Add a class for the eye container to position it absolutely */
+.eye-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.face{
+    /* width: 600px;
+    height: 550px; */
+    /* background-color:#fff; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.eye{
+    width: 15vw;
+    height: 15vw;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    overflow: hidden;
+}
+.pupil{
+    width: 5vw;
+    height: 5vw;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 50px;
+}
